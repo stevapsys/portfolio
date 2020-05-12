@@ -1,0 +1,222 @@
+#navegacao {
+  font-weight: 700;
+}
+#navegacao .navbar-brand {
+    color: #FFF;
+    font-size: 1.7em;
+}
+
+#navegacao .navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+    font-size: 1.2em;
+}
+#navegacao .navbar-nav li.nav-item a.nav-link:hover {
+    color: #fd5753;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    margin-left: 40rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+}
+
+.photo {
+    height: 100vh;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photo .photo-heading {
+    font-size: 4rem;
+    line-height: 5.75rem;
+}
+.photo .photo-subheading {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.photo .photo-avatar {
+    width: 30%;
+}
+.btn-success {
+    background: #00400f !important;
+}
+
+#bg {
+    background-color: #fd5753!important;
+}
+
+#sobre {
+    font-size: 3.5rem;
+    color: #3d3f66;
+}
+
+.sobre {
+background-color: #8febca;
+}
+
+#containerSobre {
+    padding: 5rem;
+
+}
+.texto {
+    font-weight: 500;
+    color: #151934
+}
+
+i {
+    text-align: center;
+}
+
+.fa, .fas {
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #fd5753;
+
+}
+
+#redes {
+    color: #151934;
+    opacity: 0.9;
+}
+
+#redes:hover {
+    color: #fd5753
+}
+
+.popup {
+	background: rgba(100, 100, 100, 0.5);
+	position: fixed;
+	display: none;
+	z-index: 5000;
+	height: 100%;
+	width: 100%;
+	left: 0;
+    top: 0;
+}
+
+.popupdois {
+	background: rgba(100, 100, 100, 0.5);
+	position: fixed;
+	display: none;
+	z-index: 5000;
+	height: 100%;
+	width: 100%;
+	left: 0;
+    top: 0;
+}
+
+
+.botao {
+    background: #ee745c;
+    border-radius: 0 0 4px 4px;
+    border: 0;
+    padding: 18px 30px;
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+  .fechar {
+    background: #ee745c;
+    border-radius: 4px;
+    border: 0;
+    padding: 18px 30px;
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  .fechar:hover {
+    background: #fd5753;
+  }
+
+  .botao:focus {
+    outline: none;
+  }
+  .botao:hover {
+    background: #fd5753;
+  }
+
+  .popup > div {
+    max-width: 600px;
+    width: 70%;
+    position: fixed;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    background: #FFFFFF;
+    padding: 30px;
+    z-index: 5001;
+    text-align: center;
+    border: 5px solid #fd5753;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.4);
+  }
+
+  
+
+
+  .titulopopup {
+      color: #fd5753
+  }
+
+  .botaoDois {
+    background: #008d96;
+    border-radius: 0 0 4px 4px;
+    border: 0;
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 18px 30px;
+  }
+
+
+.botaoDois:hover {
+  background: #8febca;
+}
+
+.botaoTres {
+    background: #00bfa3;
+    border-radius: 0 0 4px 4px;
+    border: 0;
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 18px 30px;
+}
+
+.botaoTres:hover {
+    background-color: #008d96;
+}
+
+
+#contact {
+    background-color: #ee745c;
+}
+
+#sobrecontato {
+    font-size: 3.5rem;
+    color: #ffcabf;
+}
+
+#contact label {
+    color: #FFF;
+}
+
+#sendMessageButton {
+    background-color: #151934;
+    border: 1px solid #151934;
+}
+
+#sendMessageButton:hover {
+    background-color: #8febca;
+    border: 1px solid #8febca;
+    color: #151934
+
+}
