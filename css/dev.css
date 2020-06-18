@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#navegacao {
+  font-weight: 700;
+}
+#navegacao .navbar-brand {
+    color: #FFF;
+    font-size: 1.7em;
+    font-weight: 200;
+    
+    
+    
+}
+
+.bg-dark {
+    box-shadow: 1px 6px 8px -1px rgba(46,39,46,1);
+}
+
+#navegacao .navbar-nav li.nav-item a.nav-link {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 400;
+
+}
+#navegacao .navbar-nav li.nav-item a.nav-link:hover {
+    color: #fd5753;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    margin-left: 40rem;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    
+}
+
+.portfolio {
+    background-color: #008d96;
+}
+
+section {
+    padding-top: 8rem; 
+}
+
+.trabalho {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 3rem;
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: wheat;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.esquerda .img {
+    display: flex;
+    justify-content: center;
+    margin: 1px solid white;
+
+
+
+}
+.esquerda img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 9px -7px rgba(97,97,97,1);
+
+}
+
+.esquerda video {
+    border-radius: 20px;
+    box-shadow: 10px 10px 9px -7px rgba(97,97,97,1);
+}
+
+.direita p {
+    width: 80%;
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    margin-left: 3rem;
+   
+}
+
+.direita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direita a {
+    display: block;
+    background: wheat;
+    margin: 1rem 8rem;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #008d96;
+    box-shadow: 10px 10px 9px -7px rgba(97,97,97,1);
+}
+
+
+.direita a:hover {
+    background-color: rgb(238, 116, 92);
+    color: wheat;
+}
+
+.direita button {
+    display: block;
+}
+.site {
+    padding: 1rem 3rem ;
+}
