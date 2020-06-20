@@ -137,6 +137,7 @@ i {
     background: linear-gradient(90deg, rgba(180,139,242,1) 0%, rgba(90,0,117,1) 100%);
     height: 15rem!important;
     padding: 1rem;
+    border-radius: 0;
 }
 
 .popup {
