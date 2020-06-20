@@ -5,52 +5,37 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-}
-#navegacao {
-  font-weight: 700;
-}
-#navegacao .navbar-brand {
-    color: #FFF;
-    font-size: 1.7em;
-    font-weight: 200;
-    
-    
-    
-}
-
-.bg-dark {
-    box-shadow: 1px 6px 8px -1px rgba(46,39,46,1);
-}
-
-#navegacao .navbar-nav li.nav-item a.nav-link {
-    color: #fff;
-    font-size: 1.2em;
-    font-weight: 400;
-
-}
-#navegacao .navbar-nav li.nav-item a.nav-link:hover {
-    color: #fd5753;
-}
-
-.navbar-expand-lg .navbar-collapse {
-    display: -ms-flexbox!important;
-    display: flex!important;
-    -ms-flex-preferred-size: auto;
-    margin-left: 40rem;
 
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 2rem;
-    
-}
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 1rem;
+    background: linear-gradient(90deg, rgba(160,113,231,1) 0%, rgba(244,161,255,1) 100%);
+    ;
+  }
+  
+  header a {
+    text-decoration: none;
+    background-color: #3f3d56;
+    color: white;
+    padding: 0.7rem 2rem;
+    border: 2px solid;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    position: fixed;
+  }
+  
+  header a:hover {
+    text-decoration: none;
+    color: #CA8CE8;
+  }
 
-.portfolio {
-    background-color: #008d96;
-}
 
 section {
-    padding-top: 8rem; 
+    background: linear-gradient(90deg, rgba(160,113,231,1) 0%, rgba(244,161,255,1) 100%);
+
 }
 
 .trabalho {
@@ -63,9 +48,15 @@ h5{
     display: flex;
     justify-content: center;
     font-size: 3rem;
-    color: wheat;
+    color: #ffffff;
     font-weight: 400;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.esquerda {
+    display: flex;
+    margin: 1rem;
 }
 
 .esquerda .img {
@@ -91,34 +82,34 @@ h5{
 .direita p {
     width: 80%;
     font-size: 1.3rem;
-    color: white;
+    color: #361940;
     text-align: center;
     margin-left: 3rem;
    
 }
 
 .direita{
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
 }
 
 .direita a {
     display: block;
-    background: wheat;
+    background: #3f3d56;
     margin: 1rem 8rem;
     font-size: 1rem;
     padding: 0.5rem 0;
     border-radius: 20px;
     text-decoration: none;
-    color: #008d96;
+    color: rgb(189, 170, 217);
     box-shadow: 10px 10px 9px -7px rgba(97,97,97,1);
 }
 
 
 .direita a:hover {
-    background-color: rgb(238, 116, 92);
-    color: wheat;
+    background: rgb(228, 198, 232);
+    color: #3f3d56;
 }
 
 .direita button {
@@ -127,3 +118,14 @@ h5{
 .site {
     padding: 1rem 3rem ;
 }
+
+
+.footer {
+    background: linear-gradient(90deg, rgba(160,113,231,1) 0%, rgba(244,161,255,1) 100%);
+  }
+  
+  .footer p {
+      margin-top: 1rem;
+      font-weight: 300;
+      font-size: 14px;
+  }

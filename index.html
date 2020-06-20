@@ -12,39 +12,38 @@
 
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg pt-4 pb-4" id="navegacao">
-        <div class="container">
-            <a href="" class="navbar-brand text-uppercase">Portfólio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse show" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#sobrenos">Sobre</a>
-                    </li>
-                </ul>
-                  <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#projetos">Portfólio</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-uppercase" href="#contact">Contato</a>
-                    </li>
-                </ul>
-
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ">
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="#sobre">Sobre mim<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#projetos">Portfólio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#sobrecontato">Contato</a>
+                </li>
+              </ul>
             </div>
-        </div>
-    </nav>
-    <header class="photo bg-primary text-white text-center" id="bg">
-        <div class="container d-flex align-items-center flex-column justify-center" >
-            <img class="photo-avatar mb-3" src="assets/img/oie_transparent.png" alt="" />
-            <h1 class="photo-heading mb-0 text-uppercase">Stephanie Vapsys</h1>
-            <p class="photo-subheading font-weight-light mb-0"> Content Producer & Front-End Developer  </p>
-        </div>
+          </nav>
     </header>
+
+    <section class="topo">
+        <div class="col1">
+            <h1>Stephanie Vapsys</h1>
+            <p>Jornalista e desenvolvedora front-end</p>
+            <a href="#sobrecontato">Vamos conversar?</a>
+        </div>
+        <div class="col2">
+            <img src="assets/img/header.svg" alt="">
+        </div>
+    </section>
 
     <section class="sobre" id="sobrenos">
         <div class="container" id="containerSobre">
@@ -77,12 +76,12 @@
 
     <section id="projetos">
          <div class="container">
-            <h2 class="text-uppercase text-center mb-4 mt-2" id="sobre">Portfólio</h2>
+            <h2 class="text-uppercase text-center mb-4 mt-2" id="sobre">Áreas de atuação</h2>
             <div class="row">
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/132.jpg" class="card-img-top" alt="...">
+                        <img src="assets/img/jornalismo.svg" class="card-img-top" alt="...">
                             <button data-js="open" class="botao"> Jornalismo </button>
                     </div>
         
@@ -90,14 +89,14 @@
                     <div class="popup">
                         <h2 class="titulopopup">Jornalismo</h2>
                         <p>Produzo conteúdo para impresso e on-line há mais de 5 anos. Tenho familiaridade com técnicas SEO para internet. Além de escrever para o site e revista de Prazeres da Mesa, também já criei conteúdo para Pitadas (Grupo Pão de Açúcar), Magazine Luiza, Blog da LivUp, Ajinomoto Foodservice, SuperCinema Up, entre outros. Tenho o texto escrito como especialidade, mas já produzi conteúdo em vídeo e podcast. </p>
-                        <p><a href="jornalismo.html">Clique aqui</a> para ver meus principais trabalhos</p>
+                        <p><a href="jornalismo.html" class="clique">Clique aqui</a> para ver meus principais trabalhos</p>
                         <button name="close" class="fechar">Fechar</button>
                     </div>         
                 </div>
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem">
-                        <img src="./assets/img/491674-PH81UQ-944.jpg" class="card-img-top" alt="..." style="
+                        <img src="assets/img/dev.svg" class="card-img-center" alt="..." style="
                         height: 18rem;" >
                             <button data-js="opendois" class="botaoDois"> Desenvolvimento Web </button>
                     </div>
@@ -109,7 +108,7 @@
                              usando plataformas como Wix e Worpress, em 2019 fui contemplada no programa de bolsas #MaisMulheresnaProgramação 
                              da Digital House Brasil. Me formei Desenvolvedora Full-Stack em 2020, mas me identifiquei mais com a área de 
                              Front-End. Gosto muito de desenvolver layouts em HTML e CSS e, atualmente, além de aprofundar meus conhecimentos em Javascript também estudo UX/UI. </p>
-                        <p><a href="dev.html">Clique aqui</a> para ver meus alguns sites que eu desenvolvi neste período</p>
+                        <p><a href="dev.html" class="clique">Clique aqui</a> para ver meus alguns sites que eu desenvolvi neste período</p>
                         <button name="close" class="fechardois">Fechar</button>
                     </div>   
 
@@ -120,7 +119,7 @@
 
                 <div class="col-sm">
                     <div class="card" style="width: 18rem;">
-                        <img src="./assets/img/3363585.jpg" class="card-img-top" alt="..." style="
+                        <img src="assets/img/mkt.svg" class="card-img-bottom" alt="..." style="
                         height: 18rem;">
                             <button data-js="opentres" class="botaoTres"> Redes Sociais </button>
                     </div>
@@ -183,15 +182,15 @@
             </div>
         </div>
         <div class="dir">
-            <img src="assets/img/contato.png" alt="">
+            <img src="assets/img/contato.svg" alt="">
         </div>
     </div>
     </section>
-    <footer class="bg-dark p-2">
+    <footer class="footer p-2">
         <div class="container">
 
         <p class="text-white text-center">
-            Copyright © 2020 - Desenvolvido por Stephanie Vapsys | Imagens: <a href="https://www.freepik.com"> Freepik </a> </p>
+            Copyright © 2020 - Desenvolvido por Stephanie Vapsys </a> </p>
         </div>
     </footer>
 
