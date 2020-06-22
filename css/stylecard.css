@@ -196,3 +196,27 @@ border-bottom-right-radius: 12px;
 .card:hover .card__info-hover {
     opacity: 1;
 }
+
+
+@media only screen and (max-width: 800px) and (min-width: 300px) {
+
+  .cards {
+    display: block;
+    width: 100%;
+  }
+
+  .col-sm{
+    margin-top: 1rem;
+
+  }
+
+  header a {
+    z-index: 1000;
+    padding: 0.3rem 2rem;
+  }
+
+  footer .container p {
+    font-size: 12px;
+  }
+
+}

@@ -77,6 +77,22 @@ h5{
 .esquerda video {
     border-radius: 20px;
     box-shadow: 10px 10px 9px -7px rgba(97,97,97,1);
+    width: 100%;
+}
+
+
+.esquerdaDesk img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 9px -7px rgba(97,97,97,1);
+
+}
+
+
+.esquerdaDesk video {
+    border-radius: 20px;
+    box-shadow: 10px 10px 9px -7px rgba(97,97,97,1);
+    width: 100%;
 }
 
 .direita p {
@@ -128,4 +144,81 @@ h5{
       margin-top: 1rem;
       font-weight: 300;
       font-size: 14px;
+  }
+
+  .mobile {
+      display: none;
+  }
+
+  
+  
+  @media only screen and (max-width: 800px) and (min-width: 300px) {
+
+    .trabalho {
+        display: block;
+        margin: 0; 
+    }
+
+    .esquerda img {
+
+        width: 120%;
+        margin-top: 1rem;
+        
+    }
+
+
+    header a {
+        z-index: 1000;
+        padding: 0.3rem 1rem;
+      }
+
+      .direita p {
+          width: 100%;
+          margin: 0;
+      }
+
+      .direita a {
+        margin: 1rem;
+      }
+
+      .direita h5 {
+          font-size: 2rem; 
+          text-align: center;
+      }
+
+      video {
+          width: 120%;
+      }
+
+      .esquerda {
+        justify-content: center;
+      }
+
+      .footer p {
+          font-size: 12px;
+      }
+
+      .esquerdaDesk  {
+
+        display: none;
+
+      }
+
+      .mobile {
+        display: block;
+       
+    }
+
+    .mobile video {
+        border-radius: 20px;
+        box-shadow: 10px 10px 9px -7px rgba(97,97,97,1);
+        width: 100%;
+    }
+
+    .mobile img {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 9px -7px rgba(97,97,97,1);
+    }
+    
   }
