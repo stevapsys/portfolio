@@ -47,7 +47,7 @@ section {
 h5{
     display: flex;
     justify-content: center;
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: #ffffff;
     font-weight: 400;
     margin-bottom: 1rem;
@@ -55,7 +55,6 @@ h5{
 }
 
 .esquerda {
-    display: flex;
     margin: 1rem;
 }
 
@@ -150,6 +149,17 @@ h5{
       display: none;
   }
 
+
+  .esquerdaDesk img {
+    margin: 5rem 0;
+}
+
+.esquerdaDesk {
+
+    margin: 5rem 0;
+
+
+}
   
   
   @media only screen and (max-width: 800px) and (min-width: 300px) {
@@ -221,4 +231,83 @@ h5{
         box-shadow: 10px 10px 9px -7px rgba(97,97,97,1);
     }
     
+  }
+
+  @media only screen and (max-width: 1000px) and (min-width: 700px) {
+    .trabalho {
+        display: block;
+        margin: 0; 
+    }
+
+    .esquerda img {
+
+        width: 100%;
+        margin-top: 1rem;
+        
+    }
+
+
+    header a {
+        z-index: 1000;
+        padding: 0.3rem 1rem;
+      }
+
+      .direita p {
+          width: 100%;
+          margin: 0;
+      }
+
+      .direita a {
+        margin: 1rem;
+      }
+
+      .direita h5 {
+          font-size: 2rem; 
+          text-align: center;
+      }
+
+      video {
+          width: 120%;
+      }
+
+      .esquerda {
+        justify-content: center;
+      }
+
+      .footer p {
+          font-size: 12px;
+      }
+
+      .esquerdaDesk  {
+
+        display: none;
+
+      }
+
+      .mobile {
+        display: block;
+       
+    }
+
+    .mobile video {
+        border-radius: 20px;
+        box-shadow: 10px 10px 9px -7px rgba(97,97,97,1);
+        width: 100%;
+    }
+
+    .mobile img {
+        width: 100%;
+        border-radius: 20px;
+        box-shadow: 10px 10px 9px -7px rgba(97,97,97,1);
+    }
+
+  }
+
+
+  @media only screen and (max-width: 1210px) and (min-width: 999px) {
+    .direita a {
+        margin: 1rem 5rem;
+    }
+
+   
   }
