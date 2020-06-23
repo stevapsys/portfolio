@@ -461,6 +461,10 @@ textarea {
      justify-content: center;
  }
 
+ .col2 img {
+    height: 150px;
+ }
+
  #containerSobre h2{
     font-size: 3rem;
     padding-top: 3rem;
